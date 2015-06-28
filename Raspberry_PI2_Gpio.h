@@ -56,6 +56,6 @@ private:
 //
 	static const uint32_t GPIO_BASE = 0x3f200000;// gpio registers base address PI2
 	static const uint32_t GPIO_LEN = 0xB4;// need only map B4 registers
-	volatile uint32_t *gpio;
+	volatile uint32_t *m_gpio;
 };
 #endif
